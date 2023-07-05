@@ -1,19 +1,33 @@
 <!DOCTYPE html>
+<!--Doctype is a declaration, this declaration tells the browser what document type it should expect when it is opened.
+    This declaration is letting the browser know to expect HTML on the page.
+    The <html> element represent the root or the begining of the html document.-->
 <html lang="en-us">
-
-<head>
+<!-- Inside the <html> tag is an attribute of lang="en", which tells the browser the language for the webpage in this case its 
+    english -->
+    <head>        
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon</title>
 </head>
-
+<!--The <head> element contains information, or metadata, that helps the browser to render the page correctly. Elements included 
+    within this are not visible when a user looks at a webpage.-->
 <body>
+<!--The <body> element is the parent element and holds all the elements that follow as they are nested within
+    the <body> tags. The elements that follow which are nested within are known as child elements.-->
     <header>
-        <h1>Horiseon</h1 >
+    <!--The <header> element represents a container for introductory content or a set of navigational links.-->
+            <h1>Hori<span class="seo">seo</span>n</h1>
+            <!--The <h1>, <h2>, and <h3> etc... elements represent the level of heading a given text block represents.
+                Headings are larger or more prominent titles and subtitles to organize a page.-->
         <nav>
+        <!--The <nav> element defines a set of navigation links. --> 
             <ul>
                 <li>
+                    <!--The <ul> and <li> elements represent unordered lists and list items. -->   
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <!--The <a> element stands for anchor and creates links to the same webpage or other webpages.
+                        The href attribute points to the URL for the link.-->
                 </li>
                 <li>
                     <a href="#online-reputation-management">Online Reputation Management</a>
@@ -24,52 +38,78 @@
             </ul>
         </nav>
     </header>
-    <div class="hero"></div>
+    <section class="hero" aria-label="people in a digital marketing meeting. "></section>
+    <!--<section> Are semantic elements that define a section in a document that contains thematic content.-->
+    <!--The aria-label property defines a sring value that labels the current element.-->
     <section class="content">
         <article id="search-engine-optimization" class="search-engine-optimization"> 
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <!--<article> Element represents a se>lf-contained composition in a document, page, application, or site, which is intended
+                to be independently distributable or reusable. Id attribute is a way to identify elements and select them. -->
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Image depcting a notebook
+            with elements of search engine optomization elements next to a computer on a desk with pencils and a cup of coffe."/>
+            <!---The <img> element represents an image. The src attribute is mandatory for the img element and is treated like a condidate
+            with a pixel density descriptor of 1x unless an image with this pixel density descriptor is already defined by srcset, or unless
+            srcset contains "W" descriptors-->
             <h2>Search Engine Optimization</h2>
             <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                The dominance of mobile internet use means that users are searching for the right 
+                business as they travel, shop, or sit on their couch at home. Search Engine Optimization 
+                (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
+            <!---The <p> element represents a paragraph or block of text.-->
         </article>
         <article id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Photo depicting
+            a person viewing computer with online reputation Management website and hand holding a phone in thier hand." />
             <h2>Online Reputation Management</h2>
             <p>
-                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                The web is full of opinions, and some of these can be negative. Social media allows
+                anyone with an internet connection to say whatever they want about your business. 
+                Online Reputation Management gives you the control over what potential customers 
+                see when they search for your business.
             </p>
         </article>
         <article id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Image depicting a six people
+            at a table with various devices and social media excerpts of like, share, tweet, media etc." />
             <h2>Social Media Marketing</h2>
             <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                Social media continues to have a sizable influence on buying habits. Social media
+                marketing helps you determine which platforms are suited to your brand, using analytics 
+                to find the right markets and increase your lead generation.
             </p>
         </article>
     </section>
     <aside class="benefits">
-        <div class="benefit-lead">
+        <!--The aside element represents a section of the page that consists of content that is often represented and 
+            located in the side bar area of the page displayed -->
+        <section class="benefit-lead">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" alt="Image depicting a gear positioned above a funnel with 
+            a downwards arrow pointing at a coin with a $ sign." />
             <p>
-                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+                Inbound strategies for lead generation require less work for your business, bringing 
+                customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </section>
+        <section class="benefit-brand">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt="Image depicing a light up lightbulb with positioned 
+            as the head of a persons upper torso wearing a tie." />
             <p>
-                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+                Users find your business through paid and organic searches, increasing the search 
+                ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section>
+        <section class="benefit-cost">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" />
+            <img src="./assets/images/cost-management.png" alt="Image depicing a gear fixed above three coins with
+            $ signs on them."/>
             <p>
-                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+                As the search ranking for your business increases, your advertising costs decrease, 
+                and you no longer need to advertise your page.
             </p>
-        </div>
+        </section>
     </aside>
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
@@ -77,6 +117,8 @@
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
+    <!--The footer element represents a footer for its nearest ancestor sectioning content or sectioning root element.-->
 </body>
 
 </html>
+
