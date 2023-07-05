@@ -18,18 +18,18 @@
     /*Header element styles.*/
   }
   
-  header h1 {
+  h1 {
     display: inline-block;
     font-size: 48px;
     /*Header h1 element styles.*/
   }
   
-  header h1 .seo {
+  .seo {
     color: #d9dcd6;
     /*Seo class within header h1 elemnt styles.*/
   }
   
-  header nav {
+  nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,12 +38,12 @@
     /*Header navigation element styles.*/
   }
   
-  header nav ul {
+  ul {
     list-style-type: none;
     /*Header navigation unordered list element styles.*/
   }
   
-  header nav ul li {
+  li {
     display: inline-block;
     margin-left: 25px;
     /*Header navigation list item element styles.*/
