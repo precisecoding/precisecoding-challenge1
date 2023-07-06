@@ -22,8 +22,9 @@ My project stands out because I went into extra detail during the commenting sec
 
 ### You can find a link to the project below.
 
-  [GitHub Pages](https://github.com/precisecoding/precisecoding-challenge1/).
 
-[link to project here]( https://github.com/precisecoding/precisecoding-challenge1) 
+[link to project here](http://127.0.0.1:5501/index.html)  
 
- https://github.com/precisecoding/precisecoding-challenge1
+
+
+
