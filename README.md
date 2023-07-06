@@ -26,5 +26,11 @@ My project stands out because I went into extra detail during the commenting sec
 [link to project here](http://127.0.0.1:5501/index.html)  
 
 
+#### This site was built using github pages.
+
+[GitHub Pages](https://pages.github.com/). 
+
+##### Thanks to everyone for support and contributions!
+
 
 
