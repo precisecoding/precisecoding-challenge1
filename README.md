@@ -32,5 +32,6 @@ My project stands out because I went into extra detail during the commenting sec
 
 ##### Thanks to everyone for support and contributions!
 
-
+Sources used, "https://developer.mozilla.org/en-US/", "https://www.w3schools.com/", "https://stackoverflow.com/".
+Worked with a tutor cody junier.
 
